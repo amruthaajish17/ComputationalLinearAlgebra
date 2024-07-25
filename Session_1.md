@@ -1,14 +1,14 @@
 ## Pseudocode for Linear Algebra
-``` python
-FUNCTION matrix_sum(A,B):
+# MATRIX SUM
 
 
-END FUNCTION
-```
 
+$$A = \begin{bmatrix} 1 & 2 \\ 
+3 & 4 \end{bmatrix}$$
 
-$$A = \begin{pmatrix}
-1 & 2 & 3 \\
-3 & 4 & 5 \\
-5 & 6 & 7 \\
-\end{pmatrix}$$
+$$B = \begin{bmatrix} 5 & 6 \\ 
+7 & 8 \end{bmatrix}$$
+
+$$C = A + B = \begin{bmatrix} 1+5 & 2+6 \\ 
+3+7 & 4+8 \end{bmatrix} = \begin{bmatrix} 6 & 8 \\
+10 & 12 \end{bmatrix}$$
